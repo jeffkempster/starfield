@@ -15,6 +15,10 @@ So I decided to create one programatically with Python. Using Jupyter Notebooks,
 
 The PNG image is pretty straightforward. It just adds the stars to a background and outputs the image. The SVG will place all the stars in a group named "stars". The background is also on its own layer. This is very helpful when you import into a vector image tool like SketchApp. 
 
+## Star Distribution
+**UPDATE** 
+There is now logic in the starfield creation that prefers to create more smaller stars and less bigger stars. This more closely reflects what you would see in nature.
+
 ## Usage
 Step 1 is get Jupyter Notebooks running. I recommend using [Anaconda](https://www.anaconda.com/distribution/) to install Jupyter on your system. Next clone or download the repo. Then using the supplied example create your images. 
 
