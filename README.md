@@ -29,5 +29,4 @@ I have a few ideas, I would like to change in the future.
 
 * Create new star shapes other than perfect circles.
 * Figure out how to properly display an SVG in a Jupyter Notebook. It only shows the top 10%-15% of the image for some reason.
-* Provide some parameters to the star size. Instead of just totally random, have it make more small stars or more large stars.
 * I would like to get real star position data from somewhere to feed this tool, so it could make real star fields. I would need to translate the star position to a x, y coordiante. I would also probably use magnitude to determine the radius of each star. 
