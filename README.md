@@ -1,5 +1,7 @@
 # Starfield
 
+![Starfield](starfield_banner.png)
+
 Create vector (SVG) or image (PNG) starfields
 
 ## Background
