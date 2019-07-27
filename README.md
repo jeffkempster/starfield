@@ -29,7 +29,7 @@ Step 1 is get Jupyter Notebooks running. I recommend using [Anaconda](https://ww
 
 You can set height, width, padding, star radius, number of stars, star color, background color and the filename.  All values have defaults, so you can create an image with almost no fiddling.
 
-## Dependancies
+## Dependencies
 
 * [Pillow](https://pillow.readthedocs.io/en/stable/)
 * [SVGWrite](https://svgwrite.readthedocs.io/en/master/)
