@@ -13,11 +13,11 @@ I love vector drawing. Some of my favorite tools are:
 * [Vectornator](https://vectornator.io)
 * [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
 
-Often I find myself drawing outer space scenes, which typically require a star field as the background. Drawing a star field in the above tools is tedious. You really need random postions and random star sizes to really get a "natural" looking star field. 
+Often I find myself drawing outer space scenes, which typically require a star field as the background. Drawing a star field in the above tools is tedious. You really need random postions and random star sizes to really get a "natural" looking star field.
 
-So I decided to create one programatically with Python. Using Jupyter Notebooks, I create a very simple tool that generates PNG or SVG star field files. 
+So I decided to create one programatically with Python. Using Jupyter Notebooks, I create a very simple tool that generates PNG or SVG star field files.
 
-The PNG image is pretty straightforward. It just adds the stars to a background and outputs the image. The SVG will place all the stars in a group named "stars". The background is also on its own layer. This is very helpful when you import the SVG into a vector image tool like SketchApp. 
+The PNG image is pretty straightforward. It just adds the stars to a background and outputs the image. The SVG will place all the stars in a group named "stars". The background is also on its own layer. This is very helpful when you import the SVG into a vector image tool like SketchApp.
 
 ## Star Distribution
 
@@ -28,6 +28,11 @@ The PNG image is pretty straightforward. It just adds the stars to a background 
 Step 1 is get Jupyter Notebooks running. I recommend using [Anaconda](https://www.anaconda.com/distribution/) to install Jupyter on your system. Next clone or download this repo. Then using the supplied example create your images.
 
 You can set height, width, padding, star radius, number of stars, star color, background color and the filename.  All values have defaults, so you can create an image with almost no fiddling.
+
+## Dependancies
+
+* [Pillow](https://pillow.readthedocs.io/en/stable/)
+* [SVGWrite](https://svgwrite.readthedocs.io/en/master/)
 
 ## The Future
 
